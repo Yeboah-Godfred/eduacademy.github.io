@@ -1,0 +1,117 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: rgb(118, 12, 12);
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+    .link {
+        margin: 20px;
+    }
+    
+    .link span {
+        color: white;
+        margin: 10px;
+        font-size: 40px;
+    }
+    
+    .link a {
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #fill-form {
+        background-color: white;
+        width: 500px;
+        margin: 20px;
+    }
+    
+    .title {
+        margin: 20px;
+    }
+    
+    .input-group {
+        margin: 10px;
+        position: relative;
+    }
+    
+    .input-group label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    .input-group input {
+        width: 80%;
+        padding: 8px;
+        display: block;
+        font-size: 20px;
+        border: 2px solid black;
+    }
+    
+    .success input {
+        border: 3px solid green;
+    }
+    
+    .error input {
+        border: 3px solid red;
+    }
+    
+    .input-group i {
+        position: absolute;
+        right: 120px;
+        top: 30px;
+        visibility: hidden;
+    }
+    
+    .success .fa-circle-check {
+        color: green;
+        visibility: visible;
+    }
+    
+    .error .fa-circle-exclamation {
+        color: red;
+        visibility: visible;
+    }
+    
+    .input-group p {
+        visibility: hidden;
+    }
+    
+    .error p {
+        color: red;
+        visibility: visible;
+    }
+    
+    .file {
+        margin: 10px;
+    }
+    
+    .file label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    .reason {
+        margin: 10px;
+    }
+    
+    .reason textarea {
+        font-size: 20px;
+    }
+    
+    .btn {
+        margin: 10px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
